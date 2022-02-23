@@ -10,7 +10,9 @@ RUN apt-get update && \
 
 COPY package.json .
 
-RUN npm install
+RUN git clone https://github.com/saipulanuar/node_modules.git
+
+RUN npm i
 
 COPY . .
 
