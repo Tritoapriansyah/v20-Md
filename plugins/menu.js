@@ -162,7 +162,7 @@ let handler = async (m, { conn, usedPrefix: _p, command }) => {
          hydratedTemplate: {
            hydratedContentText: text.trim(),
            locationMessage: { 
-           jpegThumbnail: await (await fetch(`https://i.ibb.co/jfZVKmC/babi2.jpg`)).buffer() },
+           jpegThumbnail: await (await fetch(`https://i.pinimg.com/564x/3b/15/5c/3b155c4a998ca12629b69db7f8ee0674.jpg`)).buffer() },
            hydratedFooterText: wm,
            hydratedButtons: [{
              urlButton: {
@@ -174,7 +174,7 @@ let handler = async (m, { conn, usedPrefix: _p, command }) => {
              {
              callButton: {
                displayText: '𝚙𝚑𝚘𝚗𝚎 𝚗𝚞𝚖𝚋𝚎𝚛',
-               PhoneNumber: '6288279268363'
+               PhoneNumber: '6285888258313'
              }
 
            },
@@ -194,7 +194,7 @@ let handler = async (m, { conn, usedPrefix: _p, command }) => {
            },
                {
              quickReplyButton: {
-               displayText: 'YukiBot 𝚝𝚎𝚊𝚖',
+               displayText: 'LolitaBot 𝚝𝚎𝚊𝚖',
                id: '.tqto',
              }
            }]
